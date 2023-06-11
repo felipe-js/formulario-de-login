@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <main>
+        <form class="form">
+                <div class="label">
+                    <label for="email">E-mail</label>
+                </div>
+                <input type="text" name="email" id="email" placeholder="E-mail" required>
+                <div class="label">
+                    <label for="nome">password</label>
+                </div>
+                <input type="text" name="password" id="password" placeholder="password" required>
+                <a href="#">criar nova conta?</a>
+                <button class="btn" onclick="send()">Send</button>
+            <div class="linha">    
+                <div class="line"></div>
+                <p>ou</p>
+                <div class="line"></div>
+            </div>
+            <div class="social">
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </form>
+    </main>
+    <script src="form.js"></script>
+</body>
+</html>
+
+
